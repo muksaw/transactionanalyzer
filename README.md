@@ -35,3 +35,4 @@ Other transaction lists can be passed to TransactionAnalyzer.analyze(List<Transa
 - TreeMap maintains account ID ordering, with logarithmic lookup and update costs.
 - Ending balances are calculated from the completed credit and debit totals. Timestamps are retained but neither validated nor used in calculations.
 - Tests cover calculations, ordering, invalid transactions, empty results, spending ties, and overdraft boundaries.
+- Used plain Java with Maven to keep the calculation logic simple and easy to test. The exercise did not require Spring Boot’s application configuration, dependency injection, or web features.
