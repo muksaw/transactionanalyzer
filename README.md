@@ -11,6 +11,7 @@ placeholder
 - 
 
 ## Design Choices
+![UML Asset Mark](./umlassetmark.png)
 - One of the first things I considered when understanding the transactions that this program would accept was creating an abstract class for Transactions, so it could have two child classes:
   - Debit subclass
   - Credit subclass
