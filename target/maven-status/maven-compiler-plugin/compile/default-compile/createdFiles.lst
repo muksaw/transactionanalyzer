@@ -1,2 +1,4 @@
 com\mukulsauhta\transactionanalyzer\AccountSummary.class
+com\mukulsauhta\transactionanalyzer\AnalysisResult.class
 com\mukulsauhta\transactionanalyzer\Transaction.class
+com\mukulsauhta\transactionanalyzer\TransactionAnalyzer.class
