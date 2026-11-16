@@ -2,6 +2,10 @@ package com.mukulsauhta.transactionanalyzer;
 
 import java.math.BigDecimal;
 
+/**
+ *  This class represents a transaction that a user makes regarding their account balance, either depositing or withdrawing money
+ * Transaction
+ */
 public class Transaction {
 
     private final String accountId;
