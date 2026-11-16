@@ -15,3 +15,5 @@ placeholder
   - Debit subclass
   - Credit subclass
 - I ended up going against the above decision; it would be redundant because we're explicitly given the type of transaction in valid input, and they would contain the exact same methods/fields, which don't necessarily behave differently (they both just apply the transaction to the balance.
+- For the UML Diagram, some objects are left with no methods or attributes; this is because as I was deciding how to separate the classes and document their methods, I wasn't sure on how some things would turn out.
+  - I initially wanted to utilize a stateful implementation where TransactionAnalyzer would store a list of transactions, but the problem is there is more simplicity in a per request solution as opposed to storing everything.
